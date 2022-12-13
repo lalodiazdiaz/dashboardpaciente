@@ -1,0 +1,157 @@
+.contDashboard{
+  display: flex;
+  text-align: center;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ flex-direction: row;
+}
+
+.contPatient{
+  display: flex;
+  background-color: #f0eeee;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nextAppointment{
+  display: flex;
+  background-color: white;
+  width: 90%;
+  height: 20%;
+  border-radius: 5px;
+  border: #b2b9ba solid 3px;
+}
+
+.notAppoinmet{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.notAppoinmet p {
+  font-size: 30px;
+  color: gray;
+  font-weight: 500;
+}
+
+.tasks{
+  display: flex;
+  background-color: white;
+  width: 90%;
+  height: 40%;
+  border-radius: 5px;
+  border: #b2b9ba solid 3px;
+  margin-bottom: 30px;
+}
+
+.notTask{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.notTask p{
+  font-size: 30px;
+  color: gray;
+  font-weight: 500;
+}
+.appointment{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.infoAppointment{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+.infoAppointment p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.dateAppointment{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  width: 100%;
+
+}
+.dateAppointment p{
+  margin-right: 25px;
+}
+
+.btnAppointment{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  flex-direction: column;
+}
+
+.videoCall{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  margin: 5%;
+  text-align: center;
+  cursor: pointer;
+  height: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  width: 130px;
+  background: #66d086;
+  border: 0;
+}
+
+.videoCall:hover{
+  background-color:#64ba7e
+  ;
+}
+.cancel{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  margin: 5%;
+  text-align: center;
+  cursor: pointer;
+  height: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  width: 130px;
+  background: #fe6272  ;
+  border: 0;;
+}
+.cancel:hover{
+  background-color: #e24f5e  ;
+}
+
+.task{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  justify-content: start;
+  align-items: flex-start;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+ 
+}
+.task p{
+  font-size: 20px;
+  font-weight: bold;
+}
